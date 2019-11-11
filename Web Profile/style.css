@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /* background:url("assets/afif_bg.jpg");
+    background-position:center top;
+    background-color:(255,255,255,0.5);
+    background-size: cover;
+    background-repeat:no-repeat; */
+    /* color:white; */
+    font-family:helvetica;
+    
+}
+.header{
+    width:100%;
+    color:#fff;
+    background-color: #F2921D;
+    text-align: center;
+    position: absolute;
+    display: block;
+    top:0;
+}
+.header p{
+    padding: 5px 0px 5px 0;
+}
+
+.hero{
+    position: static;
+    text-align: center;
+    background-color: #373737;
+    height: 200px;
+}
+
+.hero h1{
+    padding: 70px 0px 0px 0px;
+    color:#fff;
+
+}
+.story{
+    float: left;
+    width: 40%;
+    margin-top:4em;
+    margin-left:100px;
+}
+.story p{
+    margin-top:1.2em;
+    line-height: 1.4em;
+    text-align: justify;
+    margin-bottom: 1.2em;
+    font-size: 16px;
+}
+.story button{
+    padding:10px;
+    background-color:#F2921D;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+}
+.story button a{
+    text-decoration: none;
+    color:#fff;
+    font-size:16px;
+}
+.profilePhoto{
+    float: left;
+    width: 20%;
+    text-align: right;
+    margin:3em 2em 0 0;
+}
+.profilePhoto img{
+    margin-top:20px;
+    width:240px;
+    border-radius:5 %;
+    border:7px #fff solid;
+    box-shadow: 0px 0px 5px 3px #c3c3c3;
+}
+.information{
+    float: left;
+    width:30%;
+    margin:4em 0 0 0;
+
+  
+}
+.information td{
+    font-size: 16px;
+    line-height: 2em;
+    
+}
+.information td.entry{
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.information h2{
+    margin-bottom: 1.2em;
+}
+.information img{
+    margin-top:1.2em;
+    margin-right: 1.2em;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+
+}
+.clear{
+    clear:both;
+}
+.footer{
+    background-color: #373737;
+    width:100%;
+    position: absolute;
+    display: block;
+    bottom:0;
+    color:#fff;
+    text-align: center;padding-top:5px;
+    padding-bottom: 5px;
+    height: 20px;;
+    left:0;
+    clear: both;
+}
+
+@media only screen and (max-width:620px){
+    .header, .hero{
+        width:100%;
+        
+    }
+    .hero h1{
+        display: block;
+        padding-top:3.2em;
+        font-size:1.5em;
+    }
+    .story{
+        display: block;
+        width:100%;
+        padding:0;
+        margin:0;
+    }
+    .story h2{
+        padding-top:1.2em;
+        font-size:1.3em;
+        text-align: center;
+
+    }
+    .story p{
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .story button{
+        position: relative;
+        margin-left: 8em;
+    }
+
+    .profilePhoto{
+        width: 100%;
+
+    }
+    .profilePhoto img{
+        width: 50%;
+        margin-right: 80px;
+
+    }
+    .information{
+        width:100%;
+        margin:0;
+        padding-bottom: 50px;
+    }
+    .information h2{
+        font-size:1.3em;
+        text-align: center;
+        margin-top:1.2em;
+    }
+    .information hr{
+        display: none;
+    }
+    .information td{
+        font-size:14px;
+        
+    }
+    .information table{
+        margin-left: 25px;;
+    }
+
+    .information h3{
+        font-size:1.1em;
+        text-align: center;
+    }
+    .information img{
+        margin-left:30px;
+        
+    }
+    .footer{
+        clear: both;
+        bottom: 0;
+        display: block;
+        position: relative;
+        
+    }
+    
+}
